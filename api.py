@@ -1,5 +1,3 @@
-from pkgutil import get_data
-from turtle import title
 from webbrowser import get
 import requests, json
 
