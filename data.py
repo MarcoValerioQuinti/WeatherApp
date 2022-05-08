@@ -41,3 +41,23 @@ class GetData():
     def max_temp(self):
         max_temp = self.weather_data['max_temp']
         return max_temp
+
+    def wind_speed(self):
+        wind_speed = self.weather_data['wind_speed']
+        return wind_speed
+    
+    def wind_direction(self):
+        wind_direction = self.weather_data['wind_direction']
+        return wind_direction
+    
+    def wind_direction_compass(self):
+        wind_direction_compass = self.weather_data['wind_direction_compass']
+        return wind_direction_compass
+    
+    def air_pressure(self):
+        air_pressure = self.weather_data['air_pressure']
+        return air_pressure
+    
+    def humidity(self):
+        humidity = self.weather_data['humidity']
+        return humidity
